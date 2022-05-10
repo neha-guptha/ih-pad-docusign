@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Obtain DocuSign eSignature</label>
+        <name>obtain_docusign_esignature_2</name>
+        <source>abf665721bd7891428d2dc23b24bcb97</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:44:40</sys_created_on>
+        <sys_id>496765b21bd7891428d2dc23b24bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Obtain DocuSign eSignature</sys_name>
+        <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_496765b21bd7891428d2dc23b24bcb32</sys_update_name>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:44:40</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="DELETE" query="document_key=496765b21bd7891428d2dc23b24bcb32"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_input_abf665721bd7891428d2dc23b24bcb97^id=496765b21bd7891428d2dc23b24bcb32"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</application>
+        <file_path/>
+        <instance_id>f2440f36db02e010f492c597059619f6</instance_id>
+        <instance_name>neha</instance_name>
+        <name>sys_pd_activity_definition_496765b21bd7891428d2dc23b24bcb32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition"><sys_pd_activity_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><activity_type/><badge/><category/><description/><input_display_preferences/><inputs/><label>Obtain DocuSign eSignature</label><name>obtain_docusign_esignature_2</name><source>abf665721bd7891428d2dc23b24bcb97</source><source_type>sys_hub_flow</source_type><sys_class_name>sys_pd_activity_definition</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:44:40</sys_created_on><sys_id>496765b21bd7891428d2dc23b24bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Obtain DocuSign eSignature</sys_name><sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package><sys_policy/><sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope><sys_update_name>sys_pd_activity_definition_496765b21bd7891428d2dc23b24bcb32</sys_update_name><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:44:40</sys_updated_on><system_level>false</system_level><table>global</table><type_vals/><wait_for_completion>true</wait_for_completion></sys_pd_activity_definition><sys_variable_value action="delete_multiple" query="document_key=496765b21bd7891428d2dc23b24bcb32"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_abf665721bd7891428d2dc23b24bcb97^id=496765b21bd7891428d2dc23b24bcb32"/></record_update>]]></payload>
+        <payload_hash>-1939481947</payload_hash>
+        <record_name>Obtain DocuSign eSignature</record_name>
+        <reverted_from/>
+        <source>76879b2e1b430d9093a9ec26b04bcb08</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:44:40</sys_created_on>
+        <sys_id>86f7e9f21bd7891428d2dc23b24bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180ac7f87850000001</sys_recorded_at>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:44:40</sys_updated_on>
+        <type>Activity Definition</type>
+        <update_guid>cef7e9f240d78914f2555da52ee8659e</update_guid>
+        <update_guid_history>cef7e9f240d78914f2555da52ee8659e:-1939481947</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:56:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_activity_definition">sys_pd_activity_definition</sys_db_object>
+        <sys_id>0092435c30664a3b80876918e7934021</sys_id>
+        <sys_metadata>496765b21bd7891428d2dc23b24bcb32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Obtain DocuSign eSignature</sys_name>
+        <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
+        <sys_scope_delete display_value="">95ae463ea9304054a31eaf05f042c610</sys_scope_delete>
+        <sys_update_name>sys_pd_activity_definition_496765b21bd7891428d2dc23b24bcb32</sys_update_name>
+        <sys_update_version display_value="sys_pd_activity_definition_496765b21bd7891428d2dc23b24bcb32">86f7e9f21bd7891428d2dc23b24bcb9f</sys_update_version>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:56:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

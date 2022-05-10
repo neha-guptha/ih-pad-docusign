@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="Record">e12af577871333003058d1a936cb0ba4</activity_type>
+        <badge/>
+        <category/>
+        <description>Requests Docusign e-signature of a specified document</description>
+        <input_display_preferences>name=standard;attachment=standard;document_type=standard;email_message=standard;account=standard;participants_list=standard;email_subject=standard;email_body=standard;signatory=standard;</input_display_preferences>
+        <inputs/>
+        <label>Obtain DocuSign eSignature</label>
+        <name>obtain_docusign_esignature</name>
+        <source>c6b9b89f1b66011093a9ec26b04bcb36</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>c137ed721bd7891428d2dc23b24bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Obtain DocuSign eSignature</sys_name>
+        <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_c137ed721bd7891428d2dc23b24bcb86</sys_update_name>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="DELETE" query="document_key=c137ed721bd7891428d2dc23b24bcb86"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>1137ed721bd7891428d2dc23b24bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>1537ed721bd7891428d2dc23b24bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>1937ed721bd7891428d2dc23b24bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Email Subject">38efec811b8b0d5028d2dc23b24bcb24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>1937ed721bd7891428d2dc23b24bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>1d37ed721bd7891428d2dc23b24bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>1d37ed721bd7891428d2dc23b24bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5137ed721bd7891428d2dc23b24bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5537ed721bd7891428d2dc23b24bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Signatory">33b58dfe1b83c99028d2dc23b24bcb57</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5537ed721bd7891428d2dc23b24bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5937ed721bd7891428d2dc23b24bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5937ed721bd7891428d2dc23b24bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5d37ed721bd7891428d2dc23b24bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>9137ed721bd7891428d2dc23b24bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Email Body">c9efec811b8b0d5028d2dc23b24bcb28</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>9137ed721bd7891428d2dc23b24bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>9537ed721bd7891428d2dc23b24bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>9937ed721bd7891428d2dc23b24bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>9d37ed721bd7891428d2dc23b24bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment">7199956f1ba2c11093a9ec26b04bcba8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>9d37ed721bd7891428d2dc23b24bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>&lt;p&gt;{{vl.Obtain DocuSign eSignature./end.message}}&lt;/p&gt;</value>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>d137ed721bd7891428d2dc23b24bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>Docusign e-Signature</value>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>d537ed721bd7891428d2dc23b24bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>d937ed721bd7891428d2dc23b24bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>document_fill</value>
+        <variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>dd37ed721bd7891428d2dc23b24bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c137ed721bd7891428d2dc23b24bcb86</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>dd37ed721bd7891428d2dc23b24bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <value>collect_data</value>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_input_c6b9b89f1b66011093a9ec26b04bcb36^id=c137ed721bd7891428d2dc23b24bcb86"/>
+    <sys_element_mapping action="DELETE" query="id=c137ed721bd7891428d2dc23b24bcb86"/>
+    <sys_element_mapping action="DELETE">
+        <field>associated_record</field>
+        <id>c137ed721bd7891428d2dc23b24bcb86</id>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5537ed721bd7891428d2dc23b24bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Obtain DocuSign eSignature./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>attachments_read_only</field>
+        <id>c137ed721bd7891428d2dc23b24bcb86</id>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>d937ed721bd7891428d2dc23b24bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Obtain DocuSign eSignature./end.attachment_read_only}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>attachment_source</field>
+        <id>c137ed721bd7891428d2dc23b24bcb86</id>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>9d37ed721bd7891428d2dc23b24bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Obtain DocuSign eSignature./end.show_attachment}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>description</field>
+        <id>c137ed721bd7891428d2dc23b24bcb86</id>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>1937ed721bd7891428d2dc23b24bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Obtain DocuSign eSignature./end.message}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</application>
+        <file_path/>
+        <instance_id>f2440f36db02e010f492c597059619f6</instance_id>
+        <instance_name>neha</instance_name>
+        <name>sys_pd_activity_definition_c137ed721bd7891428d2dc23b24bcb86</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition"><sys_pd_activity_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><activity_type display_value="Record">e12af577871333003058d1a936cb0ba4</activity_type><badge/><category/><description>Requests Docusign e-signature of a specified document</description><input_display_preferences>name=standard;attachment=standard;document_type=standard;email_message=standard;account=standard;participants_list=standard;email_subject=standard;email_body=standard;signatory=standard;</input_display_preferences><inputs/><label>Obtain DocuSign eSignature</label><name>obtain_docusign_esignature</name><source>c6b9b89f1b66011093a9ec26b04bcb36</source><source_type>sys_hub_flow</source_type><sys_class_name>sys_pd_activity_definition</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>c137ed721bd7891428d2dc23b24bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Obtain DocuSign eSignature</sys_name><sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package><sys_policy/><sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope><sys_update_name>sys_pd_activity_definition_c137ed721bd7891428d2dc23b24bcb86</sys_update_name><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><system_level>false</system_level><table>global</table><type_vals/><type_vals/><wait_for_completion>true</wait_for_completion></sys_pd_activity_definition><sys_variable_value action="delete_multiple" query="document_key=c137ed721bd7891428d2dc23b24bcb86"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>1137ed721bd7891428d2dc23b24bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>sys_flow_data</value><variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>1537ed721bd7891428d2dc23b24bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>1937ed721bd7891428d2dc23b24bcb88</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Email Subject">38efec811b8b0d5028d2dc23b24bcb24</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>1937ed721bd7891428d2dc23b24bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>1d37ed721bd7891428d2dc23b24bcb8a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>sys_flow_data</value><variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>1d37ed721bd7891428d2dc23b24bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>0</value><variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>5137ed721bd7891428d2dc23b24bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>0</value><variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>4</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>5537ed721bd7891428d2dc23b24bcb88</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Signatory">33b58dfe1b83c99028d2dc23b24bcb57</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>5537ed721bd7891428d2dc23b24bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>0</value><variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>5937ed721bd7891428d2dc23b24bcb8a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>5937ed721bd7891428d2dc23b24bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>5d37ed721bd7891428d2dc23b24bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>0</value><variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>3</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>9137ed721bd7891428d2dc23b24bcb88</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Email Body">c9efec811b8b0d5028d2dc23b24bcb28</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>9137ed721bd7891428d2dc23b24bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>9537ed721bd7891428d2dc23b24bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>9937ed721bd7891428d2dc23b24bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>9d37ed721bd7891428d2dc23b24bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Attachment">7199956f1ba2c11093a9ec26b04bcba8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>9d37ed721bd7891428d2dc23b24bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>&lt;p&gt;{{vl.Obtain DocuSign eSignature./end.message}}&lt;/p&gt;</value><variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>d137ed721bd7891428d2dc23b24bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>Docusign e-Signature</value><variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>d537ed721bd7891428d2dc23b24bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>d937ed721bd7891428d2dc23b24bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>document_fill</value><variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>dd37ed721bd7891428d2dc23b24bcb8a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value/><variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_pd_activity_definition</document><document_key>c137ed721bd7891428d2dc23b24bcb86</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>dd37ed721bd7891428d2dc23b24bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><value>collect_data</value><variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_c6b9b89f1b66011093a9ec26b04bcb36^id=c137ed721bd7891428d2dc23b24bcb86"/><sys_element_mapping action="delete_multiple" query="id=c137ed721bd7891428d2dc23b24bcb86"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>associated_record</field><id>c137ed721bd7891428d2dc23b24bcb86</id><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>5537ed721bd7891428d2dc23b24bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{vl.Obtain DocuSign eSignature./end.record}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>attachments_read_only</field><id>c137ed721bd7891428d2dc23b24bcb86</id><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>d937ed721bd7891428d2dc23b24bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{vl.Obtain DocuSign eSignature./end.attachment_read_only}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>attachment_source</field><id>c137ed721bd7891428d2dc23b24bcb86</id><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>9d37ed721bd7891428d2dc23b24bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{vl.Obtain DocuSign eSignature./end.show_attachment}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>description</field><id>c137ed721bd7891428d2dc23b24bcb86</id><sys_created_by>neha.guptha@snc</sys_created_by><sys_created_on>2022-05-10 05:41:20</sys_created_on><sys_id>1937ed721bd7891428d2dc23b24bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>neha.guptha@snc</sys_updated_by><sys_updated_on>2022-05-10 05:41:20</sys_updated_on><table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table><value>{{vl.Obtain DocuSign eSignature./end.message}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>35767444</payload_hash>
+        <record_name>Obtain DocuSign eSignature</record_name>
+        <reverted_from/>
+        <source>76879b2e1b430d9093a9ec26b04bcb08</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 05:41:20</sys_created_on>
+        <sys_id>5137ed721bd7891428d2dc23b24bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180ac7c79e60000001</sys_recorded_at>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 05:41:20</sys_updated_on>
+        <type>Activity Definition</type>
+        <update_guid>9937ed7257d78914ed2540d67976c693</update_guid>
+        <update_guid_history>9937ed7257d78914ed2540d67976c693:35767444</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 06:02:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_activity_definition">sys_pd_activity_definition</sys_db_object>
+        <sys_id>981e34eeff0645af94510400249656c9</sys_id>
+        <sys_metadata>c137ed721bd7891428d2dc23b24bcb86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Obtain DocuSign eSignature</sys_name>
+        <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
+        <sys_scope_delete display_value="">95ae463ea9304054a31eaf05f042c610</sys_scope_delete>
+        <sys_update_name>sys_pd_activity_definition_c137ed721bd7891428d2dc23b24bcb86</sys_update_name>
+        <sys_update_version display_value="sys_pd_activity_definition_c137ed721bd7891428d2dc23b24bcb86">5137ed721bd7891428d2dc23b24bcb94</sys_update_version>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 06:02:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
