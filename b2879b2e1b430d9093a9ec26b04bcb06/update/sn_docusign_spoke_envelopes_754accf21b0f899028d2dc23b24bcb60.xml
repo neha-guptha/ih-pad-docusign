@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_docusign_spoke_envelopes">
+    <sn_docusign_spoke_envelopes action="INSERT_OR_UPDATE">
+        <account display_value="13313664">3c789d9f1bea011093a9ec26b04bcbc4</account>
+        <declined_reason/>
+        <embedded_signing>false</embedded_signing>
+        <id>7866b2ec-7707-4882-984c-6d24967c16cd</id>
+        <signed_date>2022-04-27 05:40:44</signed_date>
+        <signed_date_time_zone/>
+        <status>Completed</status>
+        <sys_class_name>sn_docusign_spoke_envelopes</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-27 12:39:37</sys_created_on>
+        <sys_id>754accf21b0f899028d2dc23b24bcb60</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>7866b2ec-7707-4882-984c-6d24967c16cd</sys_name>
+        <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
+        <sys_update_name>sn_docusign_spoke_envelopes_754accf21b0f899028d2dc23b24bcb60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:41:15</sys_updated_on>
+        <template/>
+    </sn_docusign_spoke_envelopes>
+</record_update>

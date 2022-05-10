@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_playbook_experience_action_assignment_map">
+    <sys_playbook_experience_action_assignment_map action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Obtain DocuSign eSignature">c93ce9fa1bd7891428d2dc23b24bcbbc</activity_definition>
+        <declarative_action_assignment display_value="skip_signature">27ef8eda1b47c59028d2dc23b24bcb6b</declarative_action_assignment>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <sys_class_name>sys_playbook_experience_action_assignment_map</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 06:14:12</sys_created_on>
+        <sys_id>7c5ea9fe1bd7891428d2dc23b24bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
+        <sys_update_name>sys_playbook_experience_action_assignment_map_7c5ea9fe1bd7891428d2dc23b24bcb7a</sys_update_name>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 06:14:12</sys_updated_on>
+    </sys_playbook_experience_action_assignment_map>
+</record_update>
