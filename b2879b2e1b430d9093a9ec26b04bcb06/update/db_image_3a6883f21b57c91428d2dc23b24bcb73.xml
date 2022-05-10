@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>389887f21b57c91428d2dc23b24bcbfa</image>
+        <name>DocuSign.svg</name>
+        <size_bytes>5626</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 12:46:31</sys_created_on>
+        <sys_id>3a6883f21b57c91428d2dc23b24bcb73</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DocuSign.svg</sys_name>
+        <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
+        <sys_update_name>db_image_3a6883f21b57c91428d2dc23b24bcb73</sys_update_name>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 12:46:44</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>789f881909bd2e9d3331617c15aaf836104f5f63a174c7bea07a648aa6463f2b</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>5626</size_bytes>
+        <size_compressed>2194</size_compressed>
+        <state>available</state>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 12:46:44</sys_created_on>
+        <sys_id>389887f21b57c91428d2dc23b24bcbfa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-05-10 12:46:45</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>3a6883f21b57c91428d2dc23b24bcb73</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="389887f21b57c91428d2dc23b24bcbfa">389887f21b57c91428d2dc23b24bcbfa</sys_attachment>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 12:46:44</sys_created_on>
+        <sys_id>789887f21b57c91428d2dc23b24bcbfa</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2912</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="389887f21b57c91428d2dc23b24bcbfa">389887f21b57c91428d2dc23b24bcbfa</sys_attachment>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 12:46:44</sys_created_on>
+        <sys_id>f89887f21b57c91428d2dc23b24bcbfa</sys_id>
+    </sys_attachment_doc>
+</record_update>

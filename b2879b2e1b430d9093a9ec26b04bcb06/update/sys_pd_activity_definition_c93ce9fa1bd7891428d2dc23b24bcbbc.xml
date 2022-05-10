@@ -4,7 +4,7 @@
         <active>true</active>
         <activity_type display_value="Record">e12af577871333003058d1a936cb0ba4</activity_type>
         <badge/>
-        <category/>
+        <category display_value="Interactive">708801831b0c1010affd0e55cc4bcb81</category>
         <description>Requests Docusign e-signature of a specified document</description>
         <input_display_preferences>attachment=standard;email_subject=standard;email_body=standard;signatory=standard;</input_display_preferences>
         <inputs/>
@@ -16,14 +16,14 @@
         <sys_created_by>neha.guptha@snc</sys_created_by>
         <sys_created_on>2022-05-10 06:04:40</sys_created_on>
         <sys_id>c93ce9fa1bd7891428d2dc23b24bcbbc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Obtain DocuSign eSignature</sys_name>
         <sys_package display_value="PAD DocuSign Activities" source="x_snc_pad_docusign">b2879b2e1b430d9093a9ec26b04bcb06</sys_package>
         <sys_policy/>
         <sys_scope display_value="PAD DocuSign Activities">b2879b2e1b430d9093a9ec26b04bcb06</sys_scope>
         <sys_update_name>sys_pd_activity_definition_c93ce9fa1bd7891428d2dc23b24bcbbc</sys_update_name>
         <sys_updated_by>neha.guptha@snc</sys_updated_by>
-        <sys_updated_on>2022-05-10 06:09:33</sys_updated_on>
+        <sys_updated_on>2022-05-10 16:46:52</sys_updated_on>
         <system_level>false</system_level>
         <table>global</table>
         <type_vals/>
@@ -93,6 +93,20 @@
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 12:07:50</sys_created_on>
+        <sys_id>7eaffa3e1bd3c91428d2dc23b24bcbc7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 12:42:08</sys_updated_on>
+        <value>&lt;p&gt;{{vl.Obtain DocuSign eSignature./end.message}}&lt;/p&gt;</value>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c93ce9fa1bd7891428d2dc23b24bcbbc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
         <sys_created_on>2022-05-10 06:09:33</sys_created_on>
         <sys_id>b2ada9be1bd7891428d2dc23b24bcb08</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -109,10 +123,10 @@
         <sys_created_by>neha.guptha@snc</sys_created_by>
         <sys_created_on>2022-05-10 06:09:33</sys_created_on>
         <sys_id>feada9be1bd7891428d2dc23b24bcb07</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>neha.guptha@snc</sys_updated_by>
-        <sys_updated_on>2022-05-10 06:09:33</sys_updated_on>
-        <value>{{vl.Obtain DocuSign eSignature./end.message}}</value>
+        <sys_updated_on>2022-05-10 15:44:36</sys_updated_on>
+        <value/>
         <variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_abf665721bd7891428d2dc23b24bcb97^id=c93ce9fa1bd7891428d2dc23b24bcbbc"/>
@@ -164,6 +178,18 @@
         <sys_updated_on>2022-05-10 06:09:33</sys_updated_on>
         <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
         <value>{{vl.Obtain DocuSign eSignature./end.show_attachment}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>c93ce9fa1bd7891428d2dc23b24bcbbc</id>
+        <sys_created_by>neha.guptha@snc</sys_created_by>
+        <sys_created_on>2022-05-10 12:07:50</sys_created_on>
+        <sys_id>beaffa3e1bd3c91428d2dc23b24bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>neha.guptha@snc</sys_updated_by>
+        <sys_updated_on>2022-05-10 12:07:50</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Obtain DocuSign eSignature./end.message}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>experience_status_record</field>
@@ -219,10 +245,10 @@
         <sys_created_by>neha.guptha@snc</sys_created_by>
         <sys_created_on>2022-05-10 06:09:33</sys_created_on>
         <sys_id>a6ada9be1bd7891428d2dc23b24bcb06</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>neha.guptha@snc</sys_updated_by>
-        <sys_updated_on>2022-05-10 06:09:33</sys_updated_on>
+        <sys_updated_on>2022-05-10 15:44:36</sys_updated_on>
         <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
-        <value>{{vl.Obtain DocuSign eSignature./end.message}}</value>
+        <value/>
     </sys_element_mapping>
 </record_update>
